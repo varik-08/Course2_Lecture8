@@ -34,4 +34,14 @@ class User extends Authenticatable
     {
         return $this->hasMany(Post::class);
     }
+
+    public function makeActiveLastInactivePost()
+    {
+        $this->posts()->orderByDesc('id')->first()->setActive();
+    }
+
+    public function deleteInactivePost()
+    {
+        $this->posts()->inactive()->delete();
+    }
 }

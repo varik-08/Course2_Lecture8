@@ -28,4 +28,14 @@ class Post extends Model
     {
         $this->update(['status_id' => 1]);
     }
+
+    public function scopeInactive($query)
+    {
+        return $query->where('status_id', 0);
+    }
+
+    public function scopeActive($query)
+    {
+        return $query->where('status_id', 1);
+    }
 }
