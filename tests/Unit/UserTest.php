@@ -10,7 +10,7 @@ use App\Post;
 
 class UserTest extends TestCase
 {
-    use RefreshDatabase;
+    //use RefreshDatabase;
 
     protected $userFirst;
     protected $userSecond;

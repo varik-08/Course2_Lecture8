@@ -37,7 +37,7 @@ class User extends Authenticatable
 
     public function makeActiveLastInactivePost()
     {
-        $this->posts()->orderByDesc('id')->first()->setActive();
+        $this->posts()->inactive()->orderByDesc('id')->first()->setActive();
     }
 
     public function deleteInactivePost()
