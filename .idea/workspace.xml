@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="abb9a496-4937-4918-aba2-ca249e890f8e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.env.testing" beforeDir="false" afterPath="$PROJECT_DIR$/.env.testing" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/Unit/UserTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Unit/UserTest.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,41 +18,6 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/laravel_unit2$UserTest.xml" NAME="UserTest Coverage Results" MODIFIED="1548844149619" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="PhpCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-  </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="127746194">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.open.time.0" value="1" />
-          <entry key="project.opened" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="env" value="1" />
-          <entry key="php" value="7" />
-          <entry key="testing" value="2" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key=".env file" value="3" />
-          <entry key="PHP" value="7" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="php" value="263" />
-          <entry key="testing" value="8" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key=".env file" value="8" />
-          <entry key="PHP" value="263" />
-        </counts>
-      </usages-collector>
-    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -69,8 +36,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tests/Unit/UserTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="21" column="59" selection-start-line="21" selection-start-column="59" selection-end-line="21" selection-end-column="59" />
+            <state relative-caret-position="264">
+              <caret line="81" column="100" selection-start-line="81" selection-start-column="100" selection-end-line="81" selection-end-column="100" />
               <folding>
                 <element signature="e#30#49#0#PHP" expanded="true" />
               </folding>
@@ -81,8 +48,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.env.testing">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+            <state relative-caret-position="210">
+              <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -90,7 +57,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/User.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
+            <state relative-caret-position="525">
               <caret line="39" column="70" selection-start-line="39" selection-start-column="70" selection-end-line="39" selection-end-column="70" />
               <folding>
                 <element signature="e#23#36#0#PHP" expanded="true" />
@@ -124,30 +91,17 @@
         <option value="$PROJECT_DIR$/database/factories/PostFactory.php" />
         <option value="$PROJECT_DIR$/tests/Unit/PostTest.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/.env.testing" />
         <option value="$PROJECT_DIR$/app/User.php" />
         <option value="$PROJECT_DIR$/app/Post.php" />
+        <option value="$PROJECT_DIR$/.env.testing" />
         <option value="$PROJECT_DIR$/tests/Unit/UserTest.php" />
       </list>
     </option>
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
-    <package-json value="$PROJECT_DIR$/package.json" />
-  </component>
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="NodePackageJsonFileManager">
-    <packageJsonPaths>
-      <path value="$PROJECT_DIR$/package.json" />
-    </packageJsonPaths>
-  </component>
   <component name="PhpServers">
     <servers />
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.2">
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP">
     <include_path>
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
       <path value="$PROJECT_DIR$/vendor/symfony/translation" />
@@ -238,7 +192,7 @@
       <path value="$PROJECT_DIR$/vendor/symfony/http-foundation" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="y" value="23" />
     <option name="width" value="1366" />
     <option name="height" value="705" />
@@ -249,27 +203,21 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="laravel_unit2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="laravel_unit2" type="462c0819:PsiDirectoryNode" />
+              <item name="Course2_Lecture8" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Course2_Lecture8" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="laravel_unit2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="laravel_unit2" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="laravel_unit2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="laravel_unit2" type="462c0819:PsiDirectoryNode" />
+              <item name="Course2_Lecture8" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Course2_Lecture8" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="laravel_unit2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="laravel_unit2" type="462c0819:PsiDirectoryNode" />
+              <item name="Course2_Lecture8" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Course2_Lecture8" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
               <item name="Unit" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -277,6 +225,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -306,20 +255,20 @@
     </option>
   </component>
   <component name="RunManager" selected="PHPUnit.UserTest.testSetActiveLastInactivePostUser">
-    <configuration name="UserTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Tests\Unit\UserTest" file="$PROJECT_DIR$/tests/Unit/UserTest.php" scope="Class" />
-      <method v="2" />
-    </configuration>
     <configuration name="UserTest.testActivateLastButOnePostUserWithLastActivePost" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
       <TestRunner class="Tests\Unit\UserTest" file="$PROJECT_DIR$/tests/Unit/UserTest.php" method="testActivateLastButOnePostUserWithLastActivePost" scope="Method" />
       <method v="2" />
     </configuration>
-    <configuration name="UserTest.testInfluenceMethodMakeActiveLastInactivePostOnAnotherUser" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Tests\Unit\UserTest" file="$PROJECT_DIR$/tests/Unit/UserTest.php" method="testInfluenceMethodMakeActiveLastInactivePostOnAnotherUser" scope="Method" />
+    <configuration name="UserTest.testDeleteInactivePost" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Unit\UserTest" file="$PROJECT_DIR$/tests/Unit/UserTest.php" method="testDeleteInactivePost" scope="Method" />
       <method v="2" />
     </configuration>
-    <configuration name="UserTest.testSaveActivePost" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Tests\Unit\UserTest" file="$PROJECT_DIR$/tests/Unit/UserTest.php" method="testSaveActivePost" scope="Method" />
+    <configuration name="UserTest.testInfluenceMethodDeleteInactivePostOnAnotherUser" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Unit\UserTest" file="$PROJECT_DIR$/tests/Unit/UserTest.php" method="testInfluenceMethodDeleteInactivePostOnAnotherUser" scope="Method" />
+      <method v="2" />
+    </configuration>
+    <configuration name="UserTest.testInfluenceMethodMakeActiveLastInactivePostOnAnotherUser" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Unit\UserTest" file="$PROJECT_DIR$/tests/Unit/UserTest.php" method="testInfluenceMethodMakeActiveLastInactivePostOnAnotherUser" scope="Method" />
       <method v="2" />
     </configuration>
     <configuration name="UserTest.testSetActiveLastInactivePostUser" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
@@ -333,18 +282,18 @@
     <list>
       <item itemvalue="PHPUnit.phpunit.xml" />
       <item itemvalue="PHPUnit.UserTest.testInfluenceMethodMakeActiveLastInactivePostOnAnotherUser" />
+      <item itemvalue="PHPUnit.UserTest.testInfluenceMethodDeleteInactivePostOnAnotherUser" />
+      <item itemvalue="PHPUnit.UserTest.testDeleteInactivePost" />
       <item itemvalue="PHPUnit.UserTest.testActivateLastButOnePostUserWithLastActivePost" />
       <item itemvalue="PHPUnit.UserTest.testSetActiveLastInactivePostUser" />
-      <item itemvalue="PHPUnit.UserTest.testSaveActivePost" />
-      <item itemvalue="PHPUnit.UserTest" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="PHPUnit.UserTest.testSetActiveLastInactivePostUser" />
-        <item itemvalue="PHPUnit.UserTest.testInfluenceMethodMakeActiveLastInactivePostOnAnotherUser" />
         <item itemvalue="PHPUnit.UserTest.testActivateLastButOnePostUserWithLastActivePost" />
-        <item itemvalue="PHPUnit.UserTest" />
-        <item itemvalue="PHPUnit.UserTest.testSaveActivePost" />
+        <item itemvalue="PHPUnit.UserTest.testInfluenceMethodMakeActiveLastInactivePostOnAnotherUser" />
+        <item itemvalue="PHPUnit.UserTest.testInfluenceMethodDeleteInactivePostOnAnotherUser" />
+        <item itemvalue="PHPUnit.UserTest.testDeleteInactivePost" />
       </list>
     </recent_temporary>
   </component>
@@ -360,28 +309,11 @@
       <updated>1545922314055</updated>
       <workItem from="1545922315233" duration="9074000" />
       <workItem from="1548669851412" duration="6807000" />
+      <workItem from="1549197842129" duration="833000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="UserTest_testSetActiveLastInactivePostUser - 2019.01.30 at 15h 37m 08s.xml">
-      <configuration name="UserTest.testSetActiveLastInactivePostUser" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="UserTest_testSetActiveLastInactivePostUser - 2019.01.30 at 15h 38m 09s.xml">
-      <configuration name="UserTest.testSetActiveLastInactivePostUser" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="UserTest_testSetActiveLastInactivePostUser - 2019.01.30 at 15h 39m 03s.xml">
-      <configuration name="UserTest.testSetActiveLastInactivePostUser" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="UserTest_testSetActiveLastInactivePostUser - 2019.01.30 at 15h 39m 28s.xml">
-      <configuration name="UserTest.testSetActiveLastInactivePostUser" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="UserTest_testActivateLastButOnePostUserWithLastActivePost - 2019.01.30 at 15h 40m 04s.xml">
-      <configuration name="UserTest.testActivateLastButOnePostUserWithLastActivePost" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="UserTest_testActivateLastButOnePostUserWithLastActivePost - 2019.01.30 at 15h 40m 11s.xml">
-      <configuration name="UserTest.testActivateLastButOnePostUserWithLastActivePost" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
     <history-entry file="UserTest_testSetActiveLastInactivePostUser - 2019.01.30 at 15h 40m 53s.xml">
       <configuration name="UserTest.testSetActiveLastInactivePostUser" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
@@ -394,42 +326,57 @@
     <history-entry file="UserTest_testSetActiveLastInactivePostUser - 2019.01.30 at 15h 43m 23s.xml">
       <configuration name="UserTest.testSetActiveLastInactivePostUser" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
+    <history-entry file="UserTest_testSetActiveLastInactivePostUser - 2019.02.03 at 17h 51m 32s.xml">
+      <configuration name="UserTest.testSetActiveLastInactivePostUser" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="UserTest_testInfluenceMethodMakeActiveLastInactivePostOnAnotherUser - 2019.02.03 at 17h 53m 50s.xml">
+      <configuration name="UserTest.testInfluenceMethodMakeActiveLastInactivePostOnAnotherUser" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="UserTest_testActivateLastButOnePostUserWithLastActivePost - 2019.02.03 at 17h 53m 56s.xml">
+      <configuration name="UserTest.testActivateLastButOnePostUserWithLastActivePost" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="UserTest_testSetActiveLastInactivePostUser - 2019.02.03 at 17h 54m 00s.xml">
+      <configuration name="UserTest.testSetActiveLastInactivePostUser" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="UserTest_testInfluenceMethodMakeActiveLastInactivePostOnAnotherUser - 2019.02.03 at 18h 00m 37s.xml">
+      <configuration name="UserTest.testInfluenceMethodMakeActiveLastInactivePostOnAnotherUser" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="UserTest_testInfluenceMethodDeleteInactivePostOnAnotherUser - 2019.02.03 at 18h 01m 40s.xml">
+      <configuration name="UserTest.testInfluenceMethodDeleteInactivePostOnAnotherUser" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15881000" />
+    <option name="totallyTimeSpent" value="16714000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <frame x="0" y="0" width="1366" height="768" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20565553" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20845921" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33962265" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33954155" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39892185" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32884097" />
-      <window_info anchor="right" id="Coverage" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.28796563" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="Coverage" order="4" side_tool="true" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/app/Providers/AppServiceProvider.php">
@@ -486,20 +433,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" selection-start-line="13" selection-end-line="13" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/ide-phpunit.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="252" selection-start-line="252" selection-end-line="252" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/.env" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/ide-phpunit.php" />
     <entry file="file://$PROJECT_DIR$/tests/Unit/PostTest.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-309">
@@ -514,6 +449,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php" />
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php" />
+    <entry file="file://$PROJECT_DIR$/app/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="39" column="70" selection-start-line="39" selection-start-column="70" selection-end-line="39" selection-end-column="70" />
+          <folding>
+            <element signature="e#23#36#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/Post.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="371">
@@ -524,41 +471,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="39" column="70" selection-start-line="39" selection-start-column="70" selection-end-line="39" selection-end-column="70" />
-          <folding>
-            <element signature="e#23#36#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.env.testing">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="45" selection-start-line="45" selection-end-line="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="210">
+          <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/Unit/UserTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="21" column="59" selection-start-line="21" selection-start-column="59" selection-end-line="21" selection-end-column="59" />
+        <state relative-caret-position="264">
+          <caret line="81" column="100" selection-start-line="81" selection-start-column="100" selection-end-line="81" selection-end-column="100" />
           <folding>
             <element signature="e#30#49#0#PHP" expanded="true" />
           </folding>
