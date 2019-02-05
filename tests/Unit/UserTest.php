@@ -28,19 +28,17 @@ class UserTest extends TestCase
 
     public function testSetActiveLastInactivePostUser()
     {
-        $lastButOnePost = factory(Post::class)->create(['user_id' => $this->userFirst->id]);
-        $lastPost = factory(Post::class)->create(['user_id' => $this->userFirst->id]);
+        factory(Post::class, 2)->create(['user_id' => $this->userFirst->id]);
         $this->userFirst->makeActiveLastInactivePost();
-        $lastPostInDb = Post::find($lastPost->id)->first();
+        $lastPostInDb = Post::orderByDesc('id')->first();
         $this->assertTrue($lastPostInDb->isActive());
     }
 
     public function testInactiveLastButOnePostUser()
     {
-        $lastButOnePost = factory(Post::class)->create(['user_id' => $this->userFirst->id]);
-        $lastPost = factory(Post::class)->create(['user_id' => $this->userFirst->id]);
+        factory(Post::class, 2)->create(['user_id' => $this->userFirst->id]);
         $this->userFirst->makeActiveLastInactivePost();
-        $lastButOnePostInDb = Post::find($lastButOnePost->id)->first();
+        $lastButOnePostInDb = Post::skip(1)->orderByDesc('id')->first();
         $this->assertTrue($lastButOnePostInDb->isNotActive());
     }
 

@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="abb9a496-4937-4918-aba2-ca249e890f8e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.env.testing" beforeDir="false" afterPath="$PROJECT_DIR$/.env.testing" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/Unit/UserTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Unit/UserTest.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,8 +34,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tests/Unit/UserTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="81" column="100" selection-start-line="81" selection-start-column="100" selection-end-line="81" selection-end-column="100" />
+            <state relative-caret-position="224">
+              <caret line="27" column="4" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
               <folding>
                 <element signature="e#30#49#0#PHP" expanded="true" />
               </folding>
@@ -49,7 +47,7 @@
         <entry file="file://$PROJECT_DIR$/.env.testing">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
-              <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+              <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -57,8 +55,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/User.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="39" column="70" selection-start-line="39" selection-start-column="70" selection-end-line="39" selection-end-column="70" />
+            <state relative-caret-position="441">
+              <caret line="39" column="36" selection-start-line="39" selection-start-column="36" selection-end-line="39" selection-end-column="55" />
               <folding>
                 <element signature="e#23#36#0#PHP" expanded="true" />
               </folding>
@@ -193,9 +191,8 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="y" value="23" />
     <option name="width" value="1366" />
-    <option name="height" value="705" />
+    <option name="height" value="768" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -203,6 +200,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -225,7 +223,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -254,21 +251,21 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="PHPUnit.UserTest.testSetActiveLastInactivePostUser">
+  <component name="RunManager" selected="PHPUnit.UserTest.test">
+    <configuration name="UserTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Unit\UserTest" file="$PROJECT_DIR$/tests/Unit/UserTest.php" scope="Class" />
+      <method v="2" />
+    </configuration>
+    <configuration name="UserTest.test" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Unit\UserTest" file="$PROJECT_DIR$/tests/Unit/UserTest.php" method="test" scope="Method" />
+      <method v="2" />
+    </configuration>
     <configuration name="UserTest.testActivateLastButOnePostUserWithLastActivePost" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
       <TestRunner class="Tests\Unit\UserTest" file="$PROJECT_DIR$/tests/Unit/UserTest.php" method="testActivateLastButOnePostUserWithLastActivePost" scope="Method" />
       <method v="2" />
     </configuration>
-    <configuration name="UserTest.testDeleteInactivePost" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Tests\Unit\UserTest" file="$PROJECT_DIR$/tests/Unit/UserTest.php" method="testDeleteInactivePost" scope="Method" />
-      <method v="2" />
-    </configuration>
-    <configuration name="UserTest.testInfluenceMethodDeleteInactivePostOnAnotherUser" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Tests\Unit\UserTest" file="$PROJECT_DIR$/tests/Unit/UserTest.php" method="testInfluenceMethodDeleteInactivePostOnAnotherUser" scope="Method" />
-      <method v="2" />
-    </configuration>
-    <configuration name="UserTest.testInfluenceMethodMakeActiveLastInactivePostOnAnotherUser" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Tests\Unit\UserTest" file="$PROJECT_DIR$/tests/Unit/UserTest.php" method="testInfluenceMethodMakeActiveLastInactivePostOnAnotherUser" scope="Method" />
+    <configuration name="UserTest.testInactiveLastButOnePostUser" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Unit\UserTest" file="$PROJECT_DIR$/tests/Unit/UserTest.php" method="testInactiveLastButOnePostUser" scope="Method" />
       <method v="2" />
     </configuration>
     <configuration name="UserTest.testSetActiveLastInactivePostUser" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
@@ -281,19 +278,19 @@
     </configuration>
     <list>
       <item itemvalue="PHPUnit.phpunit.xml" />
-      <item itemvalue="PHPUnit.UserTest.testInfluenceMethodMakeActiveLastInactivePostOnAnotherUser" />
-      <item itemvalue="PHPUnit.UserTest.testInfluenceMethodDeleteInactivePostOnAnotherUser" />
-      <item itemvalue="PHPUnit.UserTest.testDeleteInactivePost" />
       <item itemvalue="PHPUnit.UserTest.testActivateLastButOnePostUserWithLastActivePost" />
       <item itemvalue="PHPUnit.UserTest.testSetActiveLastInactivePostUser" />
+      <item itemvalue="PHPUnit.UserTest.testInactiveLastButOnePostUser" />
+      <item itemvalue="PHPUnit.UserTest" />
+      <item itemvalue="PHPUnit.UserTest.test" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="PHPUnit.UserTest.testSetActiveLastInactivePostUser" />
+        <item itemvalue="PHPUnit.UserTest.test" />
+        <item itemvalue="PHPUnit.UserTest" />
         <item itemvalue="PHPUnit.UserTest.testActivateLastButOnePostUserWithLastActivePost" />
-        <item itemvalue="PHPUnit.UserTest.testInfluenceMethodMakeActiveLastInactivePostOnAnotherUser" />
-        <item itemvalue="PHPUnit.UserTest.testInfluenceMethodDeleteInactivePostOnAnotherUser" />
-        <item itemvalue="PHPUnit.UserTest.testDeleteInactivePost" />
+        <item itemvalue="PHPUnit.UserTest.testInactiveLastButOnePostUser" />
+        <item itemvalue="PHPUnit.UserTest.testSetActiveLastInactivePostUser" />
       </list>
     </recent_temporary>
   </component>
@@ -309,50 +306,51 @@
       <updated>1545922314055</updated>
       <workItem from="1545922315233" duration="9074000" />
       <workItem from="1548669851412" duration="6807000" />
-      <workItem from="1549197842129" duration="833000" />
+      <workItem from="1549197842129" duration="1586000" />
+      <workItem from="1549375899688" duration="974000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="UserTest_testSetActiveLastInactivePostUser - 2019.01.30 at 15h 40m 53s.xml">
-      <configuration name="UserTest.testSetActiveLastInactivePostUser" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="UserTest - 2019.02.05 at 19h 22m 43s.xml">
+      <configuration name="UserTest" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="UserTest_testActivateLastButOnePostUserWithLastActivePost - 2019.01.30 at 15h 40m 57s.xml">
+    <history-entry file="UserTest_testActivateLastButOnePostUserWithLastActivePost - 2019.02.05 at 19h 23m 07s.xml">
       <configuration name="UserTest.testActivateLastButOnePostUserWithLastActivePost" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="UserTest_testInfluenceMethodMakeActiveLastInactivePostOnAnotherUser - 2019.01.30 at 15h 41m 04s.xml">
-      <configuration name="UserTest.testInfluenceMethodMakeActiveLastInactivePostOnAnotherUser" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="UserTest_testSetActiveLastInactivePostUser - 2019.01.30 at 15h 43m 23s.xml">
-      <configuration name="UserTest.testSetActiveLastInactivePostUser" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="UserTest_testSetActiveLastInactivePostUser - 2019.02.03 at 17h 51m 32s.xml">
-      <configuration name="UserTest.testSetActiveLastInactivePostUser" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="UserTest_testInfluenceMethodMakeActiveLastInactivePostOnAnotherUser - 2019.02.03 at 17h 53m 50s.xml">
-      <configuration name="UserTest.testInfluenceMethodMakeActiveLastInactivePostOnAnotherUser" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="UserTest_testActivateLastButOnePostUserWithLastActivePost - 2019.02.03 at 17h 53m 56s.xml">
+    <history-entry file="UserTest_testActivateLastButOnePostUserWithLastActivePost - 2019.02.05 at 19h 23m 54s.xml">
       <configuration name="UserTest.testActivateLastButOnePostUserWithLastActivePost" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="UserTest_testSetActiveLastInactivePostUser - 2019.02.03 at 17h 54m 00s.xml">
-      <configuration name="UserTest.testSetActiveLastInactivePostUser" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="UserTest_testActivateLastButOnePostUserWithLastActivePost - 2019.02.05 at 19h 24m 39s.xml">
+      <configuration name="UserTest.testActivateLastButOnePostUserWithLastActivePost" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="UserTest_testInfluenceMethodMakeActiveLastInactivePostOnAnotherUser - 2019.02.03 at 18h 00m 37s.xml">
-      <configuration name="UserTest.testInfluenceMethodMakeActiveLastInactivePostOnAnotherUser" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="UserTest_testActivateLastButOnePostUserWithLastActivePost - 2019.02.05 at 19h 24m 51s.xml">
+      <configuration name="UserTest.testActivateLastButOnePostUserWithLastActivePost" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="UserTest_testInfluenceMethodDeleteInactivePostOnAnotherUser - 2019.02.03 at 18h 01m 40s.xml">
-      <configuration name="UserTest.testInfluenceMethodDeleteInactivePostOnAnotherUser" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="UserTest - 2019.02.05 at 19h 25m 11s.xml">
+      <configuration name="UserTest" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="UserTest_test - 2019.02.05 at 19h 26m 58s.xml">
+      <configuration name="UserTest.test" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="UserTest_test - 2019.02.05 at 19h 27m 37s.xml">
+      <configuration name="UserTest.test" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="UserTest_test - 2019.02.05 at 19h 28m 01s.xml">
+      <configuration name="UserTest.test" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="UserTest_test - 2019.02.05 at 19h 28m 21s.xml">
+      <configuration name="UserTest.test" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16714000" />
+    <option name="totallyTimeSpent" value="18441000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="768" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20845921" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21148036" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -451,13 +449,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php" />
     <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php" />
-    <entry file="file://$PROJECT_DIR$/app/User.php">
+    <entry file="file://$PROJECT_DIR$/.env.testing">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="39" column="70" selection-start-line="39" selection-start-column="70" selection-end-line="39" selection-end-column="70" />
-          <folding>
-            <element signature="e#23#36#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="210">
+          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -471,17 +466,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.env.testing">
+    <entry file="file://$PROJECT_DIR$/app/User.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+        <state relative-caret-position="441">
+          <caret line="39" column="36" selection-start-line="39" selection-start-column="36" selection-end-line="39" selection-end-column="55" />
+          <folding>
+            <element signature="e#23#36#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/Unit/UserTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="81" column="100" selection-start-line="81" selection-start-column="100" selection-end-line="81" selection-end-column="100" />
+        <state relative-caret-position="224">
+          <caret line="27" column="4" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
           <folding>
             <element signature="e#30#49#0#PHP" expanded="true" />
           </folding>
